@@ -10,6 +10,7 @@ const PlanetCard = () => {
 		const response = await fetch("https://www.swapi.tech/api/planets");
 
 		const responseJson = await response.json();
+		console.log(responseJson + "*****");
 		setPlanets(responseJson.results);
 	}
 	useEffect(() => {

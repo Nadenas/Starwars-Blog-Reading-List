@@ -7,10 +7,11 @@ const CharacterCard = () => {
 	const { store, actions } = useContext(Context);
 
 	async function getPj() {
-		const response = await fetch("https://www.swapi.tech/api/characters");
+		const response = await fetch("https://www.swapi.tech/api/people");
 
-		const responseJson = await response.json();
-		setCharacters(responseJson.results);
+		const responsesJson = await response.json();
+		console.log(responsesJson + "ssss");
+		setCharacters(responsesJson.results);
 	}
 	useEffect(() => {
 		getPj();
