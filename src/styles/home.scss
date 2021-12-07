@@ -1,14 +1,14 @@
 .logo {
-    width: 10%;
+    width: 40%;
+}
+.row {
+    overflow: auto;
+    padding: 5px;
+    margin:2px;
 }
 
-.row {
-     overflow: auto;
-     padding: 5px;
-     margin:2px;
-}
 body {
-    background: black;
+    background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 h1 {
     padding: 8px;;
@@ -16,7 +16,8 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer   {
-    background: rgb(204, 190, 190);
+    background: transparent;
+    color: whitesmoke;
 }
 .fas fa-heart {
     color:red;
@@ -45,4 +46,21 @@ button {
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0rem 1rem;
+}
+.card-img-top{
+    border-radius: 5px;
+}
+.one{
+    margin: 0;
+    width: 100%;
+    max-width: 960px;
+}
+.container{
+    max-width: 1060px;
 }
