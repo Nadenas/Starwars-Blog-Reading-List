@@ -19,7 +19,7 @@ export const Navbar = () => {
 					{store.favorites.length > 0 ? (
 						store.favorites.map((fav, index) => {
 							return (
-								<Dropdown.Item className="dropdown-toggle" key={index}>
+								<Dropdown.Item key={index}>
 									<p>{fav}</p>
 									<i
 										className="far fa-trash-alt"
